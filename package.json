@@ -1,6 +1,6 @@
 {
   "name": "jest-snapshots",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && babel src/index.js -o dist/index.js",
