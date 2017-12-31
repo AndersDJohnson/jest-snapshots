@@ -30,13 +30,13 @@ import TestComponent from './TestComponent'
 
 describe('TestComponent snapshots', () => {
   it('with none', () => {
-    expect(<TestComponent />).toMatchSnapshot()
+    expect(shallow(<TestComponent />)).toMatchSnapshot()
   })
   it('with one', () => {
-    expect(<TestComponent one="something" />).toMatchSnapshot()
+    expect(shallow(<TestComponent one="something" />)).toMatchSnapshot()
   })
   it('with two', () => {
-    expect(<TestComponent one="something" two="and more" />).toMatchSnapshot()
+    expect(shallow(<TestComponent one="something" two="and more" />)).toMatchSnapshot()
   })
 })
 ```
