@@ -23,7 +23,7 @@ snapshots(TestComponent, {
 })
 ```
 
-Which, without `jest-snapshots`, would be effectively the same as writing tests manually as follows (but about half the noise; 11 vs. 5 lines, 373 vs. 220 characters):
+Which, without `jest-snapshots`, would be effectively the same as writing tests manually as follows (but about half the noise; 11 vs. 5 lines, 401 vs. 220 characters):
 
 ```js
 import TestComponent from './TestComponent'
