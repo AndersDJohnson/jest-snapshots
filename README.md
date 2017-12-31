@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/jest-snapshots.svg)](https://www.npmjs.com/package/jest-snapshots)
 
-> Jest snapshot test helper for React components with various prop sets.
+> Jest snapshot test helper for React components with various props sets.
 
 Used to DRY up and reduce boilerplate in tests. Low barrier to entry = less effort = encourage more tests. If no props are provided, they will be generated via [`react-fake-props`](https://github.com/typicode/react-fake-props).
 
@@ -41,7 +41,7 @@ describe('TestComponent snapshots', () => {
 })
 ```
 
-Alternatively, you can pass an array of prop sets, rather than provide names as keys (indexes will be used):
+Alternatively, you can pass an array of props sets, rather than provide names as keys (indexes will be used):
 
 ```js
 import snapshots from 'jest-snapshots'

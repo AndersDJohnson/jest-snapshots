@@ -34,7 +34,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
-  "description": "Jest snapshot test helper for React components with various prop sets.",
+  "description": "Jest snapshot test helper for React components with various props sets.",
   "repository": "AndersDJohnson/jest-snapshots",
   "author": "Anders D. Johnson (https://github.com/AndersDJohnson)",
   "license": "MIT",
