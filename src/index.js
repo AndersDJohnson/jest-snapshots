@@ -23,6 +23,8 @@ const snapshots = (Component, propSets) => {
 
   if (typeof Component === 'string') {
     Component = Component.match(/[jt]sx?$/) ? Component : `${Component}.js`
+  } else {
+    propSets = propSets || [{}]
   }
 
   if (!propSets) {

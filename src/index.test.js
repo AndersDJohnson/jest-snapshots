@@ -31,6 +31,8 @@ snapshots({
   }
 })
 
+snapshots(TestComponent)
+
 snapshots({
   component: TestComponent,
   props: [
