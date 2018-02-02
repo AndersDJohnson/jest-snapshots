@@ -54,6 +54,12 @@ snapshots(TestComponent, [
 ])
 ```
 
+Or you can pass just a component reference, which will result in a single snapshot using no props (equivalent to passing `[{}]`):
+
+```js
+snapshots(TestComponent)
+```
+
 To have `jest-snapshots` auto-generate props via `react-fake-props`, you must provide a file path to the component, rather than a class/function reference. There are two ways to achieve this. In either case, a `.js` suffix is assumed and added automatically if the path doesn't end in `.js`/`.jsx`/`.ts`/`.tsx`. You can pass an array including `__dirname` and it will be joined automatically.
 
 ```js
