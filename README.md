@@ -6,6 +6,8 @@
 
 Used to DRY up and reduce boilerplate in tests. Low barrier to entry = less effort = encourage more tests. If no props are provided, they will be generated via [`react-fake-props`](https://github.com/typicode/react-fake-props).
 
+You may need [enzyme-to-json](https://www.npmjs.com/package/enzyme-to-json) in your Jest configuration to use this library.
+
 ## Install
 
 [![yarn add --dev jest-snapshots (copy)](https://copyhaste.com/i?t=yarn%20add%20--dev%20jest-snapshots)](https://copyhaste.com/c?t=yarn%20add%20--dev%20jest-snapshots "yarn add --dev jest-snapshots (copy)") [![npm install --save-dev jest-snapshots (copy)](https://copyhaste.com/i?t=npm%20install%20--save-dev%20jest-snapshots)](https://copyhaste.com/c?t=npm%20install%20--save-dev%20jest-snapshots "npm install --save-dev jest-snapshots (copy)")
