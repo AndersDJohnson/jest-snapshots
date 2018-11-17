@@ -26,6 +26,8 @@ snapshots(TestComponent, {
 Which, without `jest-snapshots`, would be effectively the same as writing tests manually as follows (but about half the noise; 11 vs. 5 lines, 401 vs. 220 characters):
 
 ```js
+import React from 'react'
+import { shallow } from 'enzyme'
 import TestComponent from './TestComponent'
 
 describe('TestComponent snapshots', () => {
